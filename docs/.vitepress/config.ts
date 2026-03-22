@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/agent-learning/',
   title: 'AI + 运营学习手册',
   description: '生活 · 摄影 · 内容创作学习记录',
   lang: 'zh-CN',
