@@ -5,6 +5,9 @@ hero:
   name: "AI + 运营"
   text: "学习成长手册"
   tagline: 用 AI 工具，创作有温度的内容
+  image:
+    src: /clawd-laptop.webm
+    alt: Claude Crab
   actions:
     - theme: brand
       text: 开始学习 →
@@ -31,3 +34,24 @@ features:
     details: 把积累转化成简历语言，投递小红书/品牌方运营实习。
     link: /phase4/
 ---
+
+<script setup>
+import { onMounted } from 'vue'
+
+// 强制修正 Hero 区域的图片为视频
+onMounted(() => {
+  const heroImage = document.querySelector('.VPHero .image-src')
+  if (heroImage && heroImage.src.endsWith('.webm')) {
+    const video = document.createElement('video')
+    video.src = heroImage.src
+    video.autoplay = true
+    video.loop = true
+    video.muted = true
+    video.playsInline = true
+    video.style.width = '100%'
+    video.style.maxWidth = '600px'
+    video.className = 'image-src' // 保持原有样式
+    heroImage.parentNode.replaceChild(video, heroImage)
+  }
+})
+</script>

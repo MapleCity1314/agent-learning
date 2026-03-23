@@ -2,6 +2,7 @@ node_modules
 docs/.vitepress/dist
 docs/.vitepress/cache
 .claude
+.agents
 .DS_Store
 dist
 .env
