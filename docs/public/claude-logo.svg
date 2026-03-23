@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Claude Crab Body -->
+  <path d="M128 180C163.346 180 192 151.346 192 116C192 80.6538 163.346 52 128 52C92.6538 52 64 80.6538 64 116C64 151.346 92.6538 180 128 180Z" fill="#D97757"/>
+  <!-- Eyes -->
+  <circle cx="100" cy="110" r="10" fill="white"/>
+  <circle cx="156" cy="110" r="10" fill="white"/>
+  <circle cx="100" cy="110" r="4" fill="black"/>
+  <circle cx="156" cy="110" r="4" fill="black"/>
+  <!-- Claws (Simplified) -->
+  <path d="M40 80C40 60 60 40 80 40" stroke="#D97757" stroke-width="12" stroke-linecap="round"/>
+  <path d="M216 80C216 60 196 40 176 40" stroke="#D97757" stroke-width="12" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M64 140L30 160" stroke="#D97757" stroke-width="8" stroke-linecap="round"/>
+  <path d="M64 120L30 120" stroke="#D97757" stroke-width="8" stroke-linecap="round"/>
+  <path d="M192 140L226 160" stroke="#D97757" stroke-width="8" stroke-linecap="round"/>
+  <path d="M192 120L226 120" stroke="#D97757" stroke-width="8" stroke-linecap="round"/>
+</svg>
