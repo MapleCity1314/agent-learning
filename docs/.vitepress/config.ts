@@ -64,6 +64,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '三个核心认知', link: '/ai-world/' },
+          { text: '基础概念', link: '/ai-world/concepts' },
           { text: '工具全景', link: '/ai-world/tools' },
           { text: '提示词进阶', link: '/ai-world/prompts-advanced' },
         ]
