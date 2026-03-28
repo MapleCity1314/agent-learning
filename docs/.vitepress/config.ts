@@ -68,6 +68,14 @@ export default defineConfig({
           { text: '提示词进阶', link: '/ai-world/prompts-advanced' },
         ]
       },
+      {
+        text: 'AI 实战案例',
+        collapsed: false,
+        items: [
+          { text: '什么是 AI 实战思维', link: '/ai-projects/' },
+          { text: '不写代码做倒计时小游戏', link: '/ai-projects/tomato-clock' },
+        ]
+      },
     ],
 
     socialLinks: [],
